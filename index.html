@@ -6,65 +6,66 @@
     </head>
     <body>
         <h3> Select two startships from the dropdown list to compare </h3>
-           <select>
-               <option>CR90 Corvette - 2</option>
-               <option>V-wing - 75</option>
-               <option>Belbullab-22 Starfighter -74</option>
-               <option>Jedi Interceptor - 65</option>
-               <option>Star Destroyer -3</option>
-               <option>Trade Fedaration Cruiser - 59</option>
-               <option>Solar Sailer -58</option>
-               <option>Republic Attack Cruiser -63</option>
-               <option>A-wing - 28</option>
-               <option>B-wing -29</option>
-               <option>Naboo Fighter -39</option>
-               <option>Millenium Falcon -10</option>
+           <select id="select_1">
+               <option value="2">CR90 Corvette - 2</option>
+               <option value="75">V-wing - 75</option>
+               <option value="74">Belbullab-22 Starfighter -74</option>
+               <option value="65">Jedi Interceptor - 65</option>
+               <option value="3">Star Destroyer -3</option>
+               <option value="59">Trade Fedaration Cruiser - 59</option>
+               <option value="58">Solar Sailer -58</option>
+               <option value="63">Republic Attack Cruiser -63</option>
+               <option value="28">A-wing - 28</option>
+               <option value="29">B-wing -29</option>
+               <option value="39">Naboo Fighter -39</option>
+               <option value="10">Millenium Falcon -10</option>
            </select>
-           <select>
-            <option>CR90 Corvette - 2</option>
-            <option>V-wing - 75</option>
-            <option>Belbullab-22 Starfighter -74</option>
-            <option>Jedi Interceptor - 65</option>
-            <option>Star Destroyer -3</option>
-            <option>Trade Fedaration Cruiser - 59</option>
-            <option>Solar Sailer -58</option>
-            <option>Republic Attack Cruiser -63</option>
-            <option>A-wing - 28</option>
-            <option>B-wing -29</option>
-            <option>Naboo Fighter -39</option>
-            <option>Millenium Falcon -10</option>
+           <select id="select_2">
+            <option value="2">CR90 Corvette - 2</option>
+            <option value="75">V-wing - 75</option>
+            <option value="74">Belbullab-22 Starfighter -74</option>
+            <option value="65">Jedi Interceptor - 65</option>
+            <option value="3">Star Destroyer -3</option>
+            <option value="59">Trade Fedaration Cruiser - 59</option>
+            <option value="58">Solar Sailer -58</option>
+            <option value="63">Republic Attack Cruiser -63</option>
+            <option value="28">A-wing - 28</option>
+            <option value="29">B-wing -29</option>
+            <option value="39">Naboo Fighter -39</option>
+            <option value="10">Millenium Falcon -10</option>
         </select>
+        <button id="button">Compare</button>
 
         <table border="1">
             <tr>
                <th></th>
-               <th>Startship 1</th>
-               <th>startship 2</th>
+               <th>Starship 1</th>
+               <th>starship 2</th>
             </tr>
             <tr>
                <td>Name</td>
-               <td></td>
-               <td></td>
+               <td id="name1"></td>
+               <td id="name2"></td>
             </tr>
             <tr>
                <td>Cost</td>
-               <td></td>
-               <td></td>
+               <td id="cost1"></td>
+               <td id="cost2"></td>
             </tr>
             <tr>
                 <td>Speed</td>
-                <td></td>
-                <td></td>
+                <td id="speed1"></td>
+                <td id="speed2"></td>
             </tr>
             <tr>
                 <td>Cargo size</td>
-                <td></td>
-                <td></td>
+                <td id="cargo_size1"></td>
+                <td id="cargo_size2"></td>
             </tr>
             <tr>
                 <td>Passengers</td>
-                <td></td>
-                <td></td>
+                <td id="passengers1"></td>
+                <td id="passengers2"></td>
             </tr>
         </table>
         <script src="index.js"></script> 
