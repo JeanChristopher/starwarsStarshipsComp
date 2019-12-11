@@ -25,8 +25,8 @@ function run(genFunc){
 function *gen(){
 
     //fetch the film
-var Star1Response = yield fetch("http://swapi.co/api/starships/" + document.getElementById("select_1").value);
-var Star2Response = yield fetch("http://swapi.co/api/starships/" + document.getElementById("select_2").value);
+var Star1Response = yield fetch("https://swapi.co/api/starships/" + document.getElementById("select_1").value);
+var Star2Response = yield fetch("https://swapi.co/api/starships/" + document.getElementById("select_2").value);
 
 var Star1 = yield Star1Response.json();
 var Star2 = yield Star2Response.json();
